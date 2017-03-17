@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 電腦輔助設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-03-10T12:08:00+08:00</updated><entry><title>協同產品設計實習 W3作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w3zuo-ye.html" rel="alternate"></link><published>2017-03-10T12:08:00+08:00</published><updated>2017-03-10T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-03-10:./xie-tong-chan-pin-she-ji-shi-xi-w3zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 電腦輔助設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-03-16T12:08:00+08:00</updated><entry><title>協同產品設計實習 W4作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w4zuo-ye.html" rel="alternate"></link><published>2017-03-16T12:08:00+08:00</published><updated>2017-03-16T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-03-16:./xie-tong-chan-pin-she-ji-shi-xi-w4zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
-&lt;p&gt;&lt;p1&gt;使用fossil init test.fossil建立倉儲，更改START內的程式並查詢IP打入proxy&lt;/p1&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p2&gt;在瀏覽器打入https://IP即完成 &lt;/p2&gt;&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 W1作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w1zuo-ye.html" rel="alternate"></link><published>2017-03-02T12:08:00+08:00</published><updated>2017-03-02T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-03-02:./xie-tong-chan-pin-she-ji-shi-xi-w1zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;&lt;p1&gt;使用fossil sql -R cd.fossil建立倉儲&lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p2&gt;使用ipconfig指令查詢IP並打入proxy設定內&lt;/p2&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p3&gt;將組員加入管理員給予一些修改權限&lt;/p3&gt;&lt;/p&gt;
+&lt;p&gt;https://mde2a2.kmol.info/cdag3/wiki&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 W3作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w3zuo-ye.html" rel="alternate"></link><published>2017-03-10T12:08:00+08:00</published><updated>2017-03-10T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-03-10:./xie-tong-chan-pin-she-ji-shi-xi-w3zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;&lt;p1&gt;使用fossil init test.fossil建立倉儲&lt;p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p2&gt;更改START內的程式後重新開啟&lt;/p2&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p3&gt;使用ipconfig指令查詢IP並打入proxy設定內&lt;/p3&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p3&gt;在瀏覽器打入https://IP即完成 &lt;/p3&gt;&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 W1作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w1zuo-ye.html" rel="alternate"></link><published>2017-03-02T12:08:00+08:00</published><updated>2017-03-02T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-03-02:./xie-tong-chan-pin-she-ji-shi-xi-w1zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/207457931" width="640" height="326" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
