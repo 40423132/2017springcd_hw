@@ -314,7 +314,11 @@ init_mathjax();
                 </div>
                 <p>期中測驗
 </p>
+<h1>2.連桿路徑追蹤</h1>
 <p><img src="./../data/midterm6.png"width="800"/></p>
+<iframe src="https://player.vimeo.com/video/214718798" width="640" height="345" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><p><a href="https://vimeo.com/214718798">郭力維 虎尾科大機械設計工程系40423132 - 期中-1</a> from <a href="https://vimeo.com/user47579118">郭力維</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
 <!-- 導入 Brython 標準程式庫 -->
 
 <script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
@@ -369,9 +373,47 @@ ctx.stroke()
 ctx.closePath()
 </script>
 
-<iframe src="https://player.vimeo.com/video/214718798" width="640" height="345" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<h1>3.行走機構繪製</h1>
+<iframe src="https://player.vimeo.com/video/214837435" width="640" height="326" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<p><a href="https://vimeo.com/214718798">郭力維 虎尾科大機械設計工程系40423132 - 期中-1</a> from <a href="https://vimeo.com/user47579118">郭力維</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p><p><a href="https://vimeo.com/214837435">虎尾科大機械設計工程系40423132 - 期中-2</a> from <a href="https://vimeo.com/user47579118">郭力維</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<iframe src="https://player.vimeo.com/video/214836327" width="640" height="307" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><p><a href="https://vimeo.com/214836327">虎尾科大機械設計工程系40423132 - 期中-3</a> from <a href="https://vimeo.com/user47579118">郭力維</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<h1>4.零件展示</h1>
+<p>===
+<link href="./../work/madeleine/src/css/Madeleine.css" rel="stylesheet">
+<script src="./../work/madeleine/src/stats.js"></script>
+<script src="./../work/madeleine/src/detector.js"></script>
+<script src="./../work/madeleine/src/three.min.js"></script>
+<script src="./../work/madeleine/src/Madeleine.js"></script></p>
+<div id="target" class="madeleine"></div>
+
+<script>
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/walk.stl', // data path
+      path: './../work/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"
+></script>
+
+<script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
+></script>
+
+<script src="./../data/w9/loader.js"></script>
+
+<script src="./../data/w9/stl.js"></script>
+
+<div>
+select stl file: <input type="file" id="file" /> or drop stl file
+</div>
+
+<div id="view"></div>
             </div>
             <!-- /.entry-content -->
         </article>
