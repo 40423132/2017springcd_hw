@@ -4,7 +4,7 @@
 &lt;/ol&gt;
 
 
-&lt;/hr&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
@@ -498,18 +498,6 @@ data1 = open("./../data/w11/2a0504.txt", encoding="utf-8").read()
 count = 0
 count1 = 0
 # 去掉前面兩列
-student = data.split("\n")[2:]
-student1 = data1.split("\n")[2:]
-for i in range(len(student)):
-    each = student[i].split("\t")
-    if each[1] != "出席":
-        count = count + 1
-for i in range(len(student1)):
-    each1 = student1[i].split("\t")
-    if each1[1] != "present":
-        count1 = count1 + 1
-div = doc["onegear_div"]
-div &lt;= "2b: " +  str(count) + "/" + str(len(student)) + "|" + "2a: " +  str(count1) + "/" + str(len(student1))
 &lt;/script&gt;
 
 &lt;!-- 以下處理 Cango Spur Gear --&gt;

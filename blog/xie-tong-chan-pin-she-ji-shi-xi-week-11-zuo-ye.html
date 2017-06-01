@@ -263,6 +263,9 @@ init_mathjax();
                         <li class="active">
                             <a href="./category/hw.html">Hw</a>
                         </li>
+                        <li >
+                            <a href="./category/zuo-ye.html">作業</a>
+                        </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><span>
@@ -471,18 +474,6 @@ data1 = open("./../data/w11/2a0504.txt", encoding="utf-8").read()
 count = 0
 count1 = 0
 # 去掉前面兩列
-student = data.split("\n")[2:]
-student1 = data1.split("\n")[2:]
-for i in range(len(student)):
-    each = student[i].split("\t")
-    if each[1] != "出席":
-        count = count + 1
-for i in range(len(student1)):
-    each1 = student1[i].split("\t")
-    if each1[1] != "present":
-        count1 = count1 + 1
-div = doc["onegear_div"]
-div <= "2b: " +  str(count) + "/" + str(len(student)) + "|" + "2a: " +  str(count1) + "/" + str(len(student1))
 </script>
 
 <!-- 以下處理 Cango Spur Gear -->
@@ -626,6 +617,11 @@ set_interval(draw, 2)
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-w15.html">
+                            協同產品設計實習  W15
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./xie-tong-chan-pin-she-ji-shi-xi-week-12-zuo-ye.html">
                             協同產品設計實習  Week 12 作業
                         </a>
@@ -645,11 +641,6 @@ set_interval(draw, 2)
                             協同產品設計實習   期中測驗
                         </a>
                     </li>
-                    <li class="list-group-item">
-                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-w6zuo-ye.html">
-                            協同產品設計實習   W6作業
-                        </a>
-                    </li>
                 </ul>
             </li>
 
@@ -658,6 +649,11 @@ set_interval(draw, 2)
                     <li class="list-group-item">
                         <a href="./category/hw.html">
                             <i class="fa fa-folder-open fa-lg"></i> HW
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./category/zuo-ye.html">
+                            <i class="fa fa-folder-open fa-lg"></i> 作業
                         </a>
                     </li>
                 </ul>

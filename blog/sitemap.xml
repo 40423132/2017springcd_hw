@@ -5,35 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-06-01T00:00:17-00:00</lastmod>
+<lastmod>2017-06-01T09:29:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-06-01T00:00:17-00:00</lastmod>
+<lastmod>2017-06-01T09:29:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-06-01T00:00:17-00:00</lastmod>
+<lastmod>2017-06-01T09:29:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-06-01T00:00:17-00:00</lastmod>
+<lastmod>2017-06-01T09:29:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-05-31T23:33:52+08:00</lastmod>
+<lastmod>2017-06-01T08:38:01+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./xie-tong-chan-pin-she-ji-shi-xi-w15.html</loc>
+<lastmod>2017-05-11T12:08:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -110,6 +117,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/hw.html</loc>
+<lastmod>2017-05-11T12:08:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./category/zuo-ye.html</loc>
 <lastmod>2017-05-11T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
