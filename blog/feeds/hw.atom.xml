@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 電腦輔助設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-05-11T12:08:00+08:00</updated><entry><title>協同產品設計實習 Week 12 作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-week-12-zuo-ye.html" rel="alternate"></link><published>2017-05-11T12:08:00+08:00</published><updated>2017-05-11T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-05-11:./xie-tong-chan-pin-she-ji-shi-xi-week-12-zuo-ye.html</id><summary type="html">&lt;ol&gt;
-&lt;li&gt;利用Brython繪製正齒輪嚙合 (17t-11t-13t)的圖&lt;/li&gt;
-&lt;/ol&gt;
-
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 電腦輔助設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-05-11T12:08:00+08:00</updated><entry><title>協同產品設計實習 W12作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w12zuo-ye.html" rel="alternate"></link><published>2017-05-11T12:08:00+08:00</published><updated>2017-05-11T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-05-11:./xie-tong-chan-pin-she-ji-shi-xi-w12zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -155,11 +152,11 @@ ctx = canvas.getContext("2d")
 # 壓力角 pa 單位為角度
 pa = 1
 # 第1齒輪齒數
-n_g1 = 17
+n_g1 = 15
 # 第2齒輪齒數
-n_g2 = 11
+n_g2 = 23
 # 第3齒輪齒數
-n_g3 = 13
+n_g3 = 21
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
 m = (0.8*canvas.width)/(n_g1+n_g2+n_g3)
 # 根據模數 m, 計算各齒輪的節圓半徑
@@ -338,7 +335,7 @@ def draw():
     cgo.render(gear1, {'x':cx+pr*2*0.5-pr/2, 'y':cy, 'scl':0.5, 'degs':0})
 
 set_interval(draw, 2)
-&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 Week 11 作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-week-11-zuo-ye.html" rel="alternate"></link><published>2017-05-05T12:08:00+08:00</published><updated>2017-05-05T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-05-05:./xie-tong-chan-pin-she-ji-shi-xi-week-11-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 W11作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w11zuo-ye.html" rel="alternate"></link><published>2017-05-05T12:08:00+08:00</published><updated>2017-05-05T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-05-05:./xie-tong-chan-pin-she-ji-shi-xi-w11zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -488,7 +485,7 @@ x = (canvas.width)/2
 y = (canvas.height)/2
 r = 0.8*(canvas.height/2)
 # 齒數
-n = 53
+n = 25
 # 壓力角
 pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
@@ -625,7 +622,7 @@ def draw():
     cgo.render(gear1, {'x':cx+pr*2*0.5-pr/2, 'y':cy, 'scl':0.5, 'degs':0})
 
 set_interval(draw, 2)
-&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 Week 10 作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-week-10-zuo-ye.html" rel="alternate"></link><published>2017-04-28T12:08:00+08:00</published><updated>2017-04-28T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-04-28:./xie-tong-chan-pin-she-ji-shi-xi-week-10-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 W10作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w10zuo-ye.html" rel="alternate"></link><published>2017-04-28T12:08:00+08:00</published><updated>2017-04-28T12:08:00+08:00</updated><author><name>40423132</name></author><id>tag:,2017-04-28:./xie-tong-chan-pin-she-ji-shi-xi-w10zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
