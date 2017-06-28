@@ -316,6 +316,26 @@ init_mathjax();
                 </div>
                 <!-- PELICAN_END_SUMMARY -->
 
+<h2>加法運算</h2>
+<iframe src="https://player.vimeo.com/video/223383723" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/223383723">加法運算</a> from <a href="https://vimeo.com/user47579118">郭力維</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<p>+法程式碼(add.py)
+<pre class="brush: python">
+def add (a,b): //def用於定義函式和類型的方法
+    return a+b //將a+b值傳回主程式中
+</pre>
++法程式碼(print.py)
+<pre class="brush: python">
+import sys //插入sys檔案中所有函式
+sys.path.append("./m1")//資料夾路徑
+import add //導入 add.py</p>
+<p>sum = add.add (1,2) //乘法演算</p>
+<p>print(sum) //輸出結果
+</pre></p>
+<!-- PELICAN_END_SUMMARY -->
+
 <!-- 導入 Brython 標準程式庫 -->
 
 <script src="../data/Brython-3.3.1/brython.js"></script>
@@ -326,14 +346,10 @@ init_mathjax();
 
 <script>
 window.onload=function(){
-// 設定 cdw10 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/w10']});
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
 }
 </script>
-
-<!-- 以下實際利用  Brython -->
-
-<div id="container" width="600" height="400"></div>
 
 <script type="text/python3">
 from browser import document as doc
@@ -343,11 +359,171 @@ container = doc['container']
 degree = math.pi/180
 def button1(event):
     a = input("give me a")
-    container <= str(math.cos(60*degree)+float(a))
+    b = input("give me b")
+    container <= str(float(a)+float(b))
 doc["button1"].bind("click", button1)
+
 </script>
 
-<p><button id="button1">按下取 a 值</button></p>
+<p><button id="button1">按下取 a b 值</button></p>
+<h2>減法運算</h2>
+<p><iframe src="https://player.vimeo.com/video/223383715" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/223383715">減法運算</a> from <a href="https://vimeo.com/user47579118">郭力維</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<p>減法程式碼(add.py)
+<pre class="brush: python">
+def add (a,b): //def用於定義函式和類型的方法
+    return a-b //將a-b值傳回主程式中
+</pre>
+減法程式碼(print.py)
+<pre class="brush: python">
+import sys //插入sys檔案中所有函式
+sys.path.append("./m1") //資料夾路徑
+import add //導入 add.py</p>
+<p>sum = add.add (1,2) //乘法演算</p>
+<p>print(sum) //輸出結果
+</pre></p>
+<!-- PELICAN_END_SUMMARY -->
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+
+<!--<canvas id="w10" width="800" height="600"></canvas>-->
+
+<div id="container1" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container1']
+degree = math.pi/180
+def button2(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)-float(b))
+doc["button2"].bind("click", button2)
+
+</script>
+
+<p><button id="button2">按下取 a b 值</button></p>
+<h2>乘法運算</h2>
+<p><iframe src="https://player.vimeo.com/video/223383730" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/223383730">乘法運算</a> from <a href="https://vimeo.com/user47579118">郭力維</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<p>乘法程式碼(add.py)
+<pre class="brush: python">
+def add (a,b): //def用於定義函式和類型的方法
+    return a* b //將a乘b值傳回主程式中
+</pre>
+乘法程式碼(print.py)
+<pre class="brush: python">
+import sys //插入sys檔案中所有函式
+sys.path.append("./m1") //資料夾路徑
+import add //導入 add.py</p>
+<p>sum = add.add (1,2) //乘法演算</p>
+<p>print(sum) //輸出結果
+</pre></p>
+<!-- PELICAN_END_SUMMARY -->
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+
+<!--<canvas id="w10" width="800" height="600"></canvas>-->
+
+<div id="container3" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container3']
+degree = math.pi/180
+def button3(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)*float(b))
+doc["button3"].bind("click", button3)
+
+</script>
+
+<p><button id="button3">按下取 a b 值</button></p>
+<h2>除法運算</h2>
+<p><iframe src="https://player.vimeo.com/video/223383735" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/223383735">除法運算</a> from <a href="https://vimeo.com/user47579118">郭力維</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<p>除法程式碼(add.py)
+<pre class="brush: python">
+def add (a,b): //def用於定義函式和類型的方法
+    return a/b //將a/b值傳回主程式中
+</pre>
+除法程式碼(print.py)
+<pre class="brush: python">
+import sys//插入sys檔案中所有函式
+sys.path.append("./m1") //資料夾路徑
+import add//導入 add.py</p>
+<p>sum = add.add (1,2) // /法演算</p>
+<p>print(sum) //輸出結果
+</pre></p>
+<!-- PELICAN_END_SUMMARY -->
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<div id="container4" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container4']
+degree = math.pi/180
+def button4(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)/float(b))
+doc["button4"].bind("click", button4)
+
+</script>
+
+<p><button id="button4">按下取 a b 值</button></p>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -363,6 +539,16 @@ doc["button1"].bind("click", button1)
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-qi-mo-cha-yan.html">
+                            協同產品設計實習    期末查驗
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./si-lian-gan-xing-zou-ji-gou.html">
+                            四連桿行走機構
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./xie-tong-chan-pin-she-ji-shi-xi-w12zuo-ye.html">
                             協同產品設計實習    W12作業
                         </a>
@@ -374,17 +560,7 @@ doc["button1"].bind("click", button1)
                     </li>
                     <li class="list-group-item">
                         <a href="./xie-tong-chan-pin-she-ji-shi-xi-w11zuo-ye.html">
-                            協同產品設計實習   W11作業
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-w10zuo-ye.html">
-                            協同產品設計實習  W10作業
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-qi-zhong-ce-yan.html">
-                            協同產品設計實習   期中測驗
+                            協同產品設計實習     W11作業
                         </a>
                     </li>
                 </ul>
