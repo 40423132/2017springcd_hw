@@ -10,6 +10,8 @@
 
 &lt;iframe src="./../data/2link-2.html" width="800" height="600"&gt;&lt;/iframe&gt;
 
+&lt;iframe src="./../data/2link-組立.html" width="800" height="600"&gt;&lt;/iframe&gt;
+
 &lt;p&gt;&lt;link href="./../viewer/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
 &lt;script src="./../viewer/madeleine/src/stats.js"&gt;&lt;/script&gt;
 &lt;script src="./../viewer/madeleine/src/detector.js"&gt;&lt;/script&gt;
